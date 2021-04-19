@@ -1,45 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
 
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>goit-js-hw-12-countries</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-      .intro {
-        text-align: center;
-      }
+</head>
 
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
+<body>
 
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
-  </head>
+  <div class="box">
+    <form class="container-4 js-search-form">
+      <input type="search" id="search" placeholder="Search...">
+      <div class="form-error-box"></div>
+      <button type="input" class="icon btn"><i class="fa fa-search"></i></button>
+    </form>
 
-  <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <ul class="countries-list"></ul>
+  </div>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
-  </body>
+</body>
+
 </html>
